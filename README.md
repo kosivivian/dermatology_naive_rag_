@@ -87,6 +87,15 @@ The application requires an API key from Groq to use its LLM.
     GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     ```
 
+### 5\. Create the FAISS Vector Store(do this once)
+
+Run this to build the vector store
+```bash
+python ingest.py
+```
+
+If you wish to add more documents, include it in the `ingest.py` and rerun it
+
 ### USAGE
 With the environment set up and dependencies installed, you can now run the Streamlit application.
 
