@@ -115,9 +115,7 @@ The project is organized in a modular way to keep the code clean and maintainabl
 ├── files/                # contains all dermatology docs
 ├── helpers/
 │   ├── __init__.py       # Makes 'helpers' a Python package
-│   ├── faiss_index/
-        ├── index.faiss
-        └── index.pkl
+│   ├── ingest.py         # creates faiss index with dermatology docs
 │   ├── chain.py          # Creates the final RAG chain with the LLM
 │   ├── doc_loading.py    # loads dermatology docs in `files/` and splits them into smaller chunks
 │   ├── reranker.py       # Creates the retriever and reranker
