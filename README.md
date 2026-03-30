@@ -4,7 +4,7 @@ This is an interactive Naive Retrieval-Augmented Generation (RAG) system that ca
 
 ## FEATURES
 
-- **Interactive Q\&A:** Ask questions about a YouTube video in natural language.
+- **Interactive Q\&A:** Ask questions about skin, hair and body care in natural language.
 - **Advanced Retrieval:** Uses a sophisticated retrieval pipeline with a reranker (**Cross-Encoder**) for highly accurate context finding.
 - **Fast Generation:** Powered by the incredibly fast **Groq** API with Llama 3 for near-instant answers.
 - **Open-Source Embeddings:** Utilizes a local, open-source model from Hugging Face for text embeddings.
