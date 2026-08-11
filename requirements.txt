@@ -8,7 +8,7 @@ langchain-chroma>=0.1.2
 rank_bm25
 langchain-huggingface
 torch>=2.0.0 # Required by sentence-transformers
-
+torchvision
 # Useful utilities
 numpy>=1.24.0
 tqdm>=4.65.0  # Progress bars (required for parallel processing)
