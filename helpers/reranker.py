@@ -29,11 +29,11 @@ from langchain_community.cross_encoders import (
     HuggingFaceCrossEncoder
 )
 
-from langchain.retrievers.document_compressors import (
+from langchain_classic.retrievers.document_compressors import (
     CrossEncoderReranker
 )
 
-from langchain.retrievers import (
+from langchain_classic.retrievers import (
     ContextualCompressionRetriever
 )
 

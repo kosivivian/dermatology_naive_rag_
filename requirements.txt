@@ -1,18 +1,15 @@
 streamlit
-langchain_groq
-langchain_community
-pypdf
-sentence_transformers>=2.2.0 
-python-dotenv
-langchain-chroma>=0.1.2
-rank_bm25
-langchain-huggingface
-torch>=2.0.0 # Required by sentence-transformers
-torchvision
-# Useful utilities
-numpy>=1.24.0
-tqdm>=4.65.0  # Progress bars (required for parallel processing)
 langchain
-langchain.retrievers
-
-
+langchain-classic
+langchain-groq
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+sentence-transformers
+torch
+torchvision
+numpy
+pypdf
+python-dotenv
+rank-bm25
